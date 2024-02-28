@@ -1,0 +1,66 @@
+<!--
+  There are 3 ways that Javascript can be added to an HTML file
+    
+  External JavaScript:
+    JavaScript code is stored in a separate external file (ex: script.js) and linked to the HTML document.
+    
+  Internal JavaScript:
+    JavaScript code is directly written within the <script> tags in the HTML document.
+    
+  Inline JavaScript:
+    JavaScript code is added directly to HTML elements using the "onclick" attribute or other event attributes.
+    
+    Examples of event attributes:
+      onclick: Triggers a JavaScript function when the user clicks an element.
+      ondblclick: Triggers a JavaScript function when the user double-clicks an element.
+      onmouseover: Triggers a JavaScript function when the mouse pointer moves over an element.
+      onmouseout: Triggers a JavaScript function when the mouse pointer moves out of an element.
+      onchange: Triggers a JavaScript function when the value of an input element changes (commonly used with form elements).
+      onsubmit: Triggers a JavaScript function when a form is submitted.
+      onkeydown: Triggers a JavaScript function when a key is pressed down.
+      onkeyup: Triggers a JavaScript function when a key is released.
+      onfocus: Triggers a JavaScript function when an element receives focus.
+      onblur: Triggers a JavaScript function when an element loses focus.
+      onload: Triggers a JavaScript function when a webpage and its resources finish loading.
+      onunload: Triggers a JavaScript function when the user navigates away from the webpage.
+      onresize: Triggers a JavaScript function when the browser window is resized.
+      onscroll: Triggers a JavaScript function when the user scrolls the webpage.
+
+  -->
+<!DOCTYPE html> 
+<html lang="en-us"> 
+  <head>
+    <title>Page Title</title> 
+
+    <!--External CSS-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!--Internal CSS-->
+    <style>
+
+    </style>
+
+    <!--External JavaScript: use the <script> tag with the src attribute-->
+    <script src="script.js"></script>
+
+    <!--Internal JavaScript: use the script tag and write the code in between the tags-->
+    <script>
+
+      function showMessage() {
+        console.log("We use console.log() to show output in JavaScript")
+      }
+
+    </script>
+
+  </head> 
+
+  <body> 
+
+    <h1>This is a heading</h1> 
+    <p>This is a paragraph.</p> 
+
+    <button onclick="showMessage1()">1. Click Me </button>
+    <button onclick="showMessage2()">2. Click Me </button>
+
+  </body> 
+</html> 
