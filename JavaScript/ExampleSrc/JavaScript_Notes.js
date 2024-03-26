@@ -89,8 +89,10 @@ const pi = 3.14; // const for constants
 Symbols or keywords that perform operations on variables and values. 
 #========================================================================================================================================================#
 */
-let a = 10; 
-let b = 2;
+
+// Assignment Operators
+let a = 10; // = a stores 10
+let b = 2;  // = b stores 2
 
 // Arithmetic Operators
 a + b; // addition
@@ -255,7 +257,7 @@ console.log( tiger.name ); // Output: Tony
 //console also refers to an object, but not an Animal object. .log() is a method being called on the console object. 
 
 
-/*Calling methods +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/*CALLING METHODS +++++++++++++++++++++++++++++++++++++++++++++++++++++++
    the act of instructing a method to execute on an object.
    It involves dot syntax --> object.method()
 */
