@@ -246,7 +246,7 @@ const tiger = new Animal("Tony", "Tiger");// Constructing an instance of the Ani
 //new Animal("Tony", "Tiger") creates a new Animal object with the properties of "Tony", and "Tiger"
 
 
-/*ACESSING PROPERTIES+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/*ACCESSING PROPERTIES+++++++++++++++++++++++++++++++++++++++++++++++++++++++
    the act of looking up the value of an objects property
    It involves dot syntax --> object.variable
  */
